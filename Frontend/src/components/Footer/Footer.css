@@ -1,0 +1,37 @@
+.footer {
+  background-color: #343a40; 
+  color: #fff; 
+  padding: 40px 0; 
+}
+
+.footer-logo {
+  margin-bottom: 20px; 
+}
+
+.social {
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 20px; 
+}
+
+.social .social-icon {
+  font-size: 24px; 
+  margin: 0 10px; 
+  color: #fff; 
+  text-decoration: none; 
+}
+
+.contact-item {
+  margin-bottom: 10px; 
+  display: flex;
+  align-items: center;
+}
+
+.contact-item span {
+  margin-left: 10px; 
+}
+
+.footer-copyright {
+  text-align: right; 
+  margin-top: 20px; 
+}

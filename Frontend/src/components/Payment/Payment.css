@@ -1,0 +1,59 @@
+.payment-form {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    background-color: rgba(150, 133, 23, 0.329);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .order-details {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  
+  .confirm-button {
+    display: block;
+    background-color: #054305;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+ 
+  }
+
+  .confirm-button:hover{
+    background-color: greenyellow;
+  }
+  
+  .topic{
+    font-weight: 400;
+    padding: 0;
+  }
+  .subtopic{
+    font-weight: 400;
+ 
+  }

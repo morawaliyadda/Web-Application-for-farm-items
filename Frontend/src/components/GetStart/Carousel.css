@@ -1,0 +1,87 @@
+ .background-image {
+  background-image: url('/src/frontnew.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  position: relative;
+} 
+
+.text-content {
+  text-align: center;
+  color: white; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; 
+  z-index: 1; 
+  background-color:#362b137b;
+  border-radius: 10px;
+  width: auto;
+  padding: 20px;
+}
+
+
+
+.custom-font {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700; 
+  font-size: 1000;
+}
+
+.topic{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700; 
+}
+.description {
+  font-size: 30px; 
+  font-family:'SignPainter-HouseScript', 'signpainter', 'Brush Script MT', Arial, sans-serif;
+  
+}
+  
+
+
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: brown;
+}
+
+header {
+  background-color: rgba(33,37,41,255); 
+}
+
+header .container {
+  align-items: vertical;
+}
+.main_topic{
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+.intro{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
